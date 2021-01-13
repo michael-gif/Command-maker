@@ -1,5 +1,5 @@
 # Command-processor
-A thing which you can use to register and process terminal style commands
+A module you can use to make and process terminal style commands
 
 # Usage
 - Instantiate the `CommandProcessor` class
