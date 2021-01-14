@@ -3,11 +3,11 @@ class Command:
         self.name = name
         self.description = description
         self.command = command
+        self.syntax = name
 
 class CommandProcessor:
     def __init__(self):
         self.commands = {}
-        self.executables = []
 
     def register_command(self, command):
         self.commands[command.name] = command
